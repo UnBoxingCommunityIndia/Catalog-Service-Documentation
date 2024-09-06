@@ -5,6 +5,8 @@ sequenceDiagram
     participant Customer
     participant CatalogueService
     participant Database
+    ![diagram-export-6-9-2024-3_33_47-pm](https://github.com/user-attachments/assets/0c9b2573-414c-48cb-8859-0b93495abf79)
+
 
     Engineer->>CatalogueService: Add Product Specifications
     CatalogueService->>Database: Insert Product Details
