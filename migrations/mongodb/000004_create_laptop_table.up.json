@@ -1,0 +1,133 @@
+{
+  "operation": "create_collection",
+  "collection": "laptops",
+  "schema": {
+    "brand": "string",
+    "modelSeries": "string",
+    "releaseYear": "integer",
+    "priceRange": {
+      "min": "decimal",
+      "max": "decimal"
+    },
+    "physicalAttributes": {
+      "weight": {
+        "value": "decimal",
+        "rating": "string"
+      },
+      "dimensions": {
+        "width": "decimal",
+        "height": "decimal",
+        "depth": "decimal",
+        "rating": "string"
+      }
+    },
+    "productAesthetics": {
+      "color": "string",
+      "colorFamily": "string"
+    },
+    "durability": {
+      "impactResistance": "string",
+      "vibrationResistance": "string",
+      "temperatureResistance": "string",
+      "humidityResistance": "string",
+      "dustResistance": "string",
+      "screenProtection": "string",
+      "buttonControlDurability": "string",
+      "connectorDurability": "string",
+      "backlightingLongevity": "string"
+    },
+    "chassisMaterial": {
+      "flexibility": "string",
+      "impactResistance": "string",
+      "scratchResistance": "string",
+      "structuralIntegrity": "string"
+    },
+    "manufacturerDetails": {
+      "company": "string",
+      "productLaunchYear": "integer",
+      "assembledIn": ["string"]
+    },
+    "screenAndDisplay": {
+      "resolution": {
+        "width": "integer",
+        "height": "integer",
+        "rating": "integer"
+      },
+      "refreshRate": {
+        "value": "string",
+        "rating": "integer"
+      },
+      "hdrVersions": {
+        "available": "string",
+        "rating": "integer"
+      },
+      "panelType": {
+        "value": "string",
+        "rating": "integer"
+      },
+      "screenSize": {
+        "diagonalSize": "string",
+        "aspectRatio": "string",
+        "curvature": "string"
+      },
+      "brightness": {
+        "value": "decimal",
+        "rating": "integer"
+      },
+      "contrastRatio": {
+        "value": "string",
+        "rating": "integer"
+      },
+      "nativeContrastRatio": {
+        "value": "string",
+        "rating": "integer"
+      },
+      "colorGamut": {
+        "value": "string",
+        "rating": "integer"
+      },
+      "viewingAngle": {
+        "range": "string",
+        "rating": "integer"
+      },
+      "screenCoating": {
+        "comment": "string",
+        "rating": "integer"
+      },
+      "backlighting": {
+        "value": "string",
+        "rating": "integer"
+      },
+      "variableRefreshRate": {
+        "value": "string",
+        "rating": "integer"
+      },
+      "3DCapability": {
+        "active3D": "boolean",
+        "passive3D": "boolean",
+        "available": "boolean"
+      },
+      "3DGlassesSupport": {
+        "rf": "boolean",
+        "ir": "boolean"
+      },
+      "viewingModesSupported": {
+        "gaming": "boolean",
+        "cinemaMode": "boolean",
+        "standard": "boolean",
+        "sports": "boolean",
+        "dynamic": "boolean",
+        "multiView": "boolean"
+      },
+      "pictureEnhancement": {
+        "contrastEnhancement": "boolean",
+        "brightnessAdjustment": "boolean",
+        "sharpnessControl": "boolean",
+        "colorSaturation": "boolean",
+        "colorTemperature": "boolean",
+        "gammaCorrection": "boolean",
+        "noiseReduction": "boolean"
+      }
+    }
+  }
+}

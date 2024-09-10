@@ -1,0 +1,2 @@
+db.categories.create_index([("path", pymongo.ASCENDING)])
+db.products.create_index([("category", pymongo.ASCENDING)])

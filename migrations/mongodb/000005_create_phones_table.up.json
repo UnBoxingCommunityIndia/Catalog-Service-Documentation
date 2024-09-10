@@ -1,0 +1,132 @@
+{
+    "operation": "create_collection",
+    "collection":"phones",
+    "$schema": {
+  "brand": "string",
+  "model_series": "string",
+  "release_year": "integer",
+  "price_range": {
+    "min": "integer",
+    "max": "integer"
+  },
+  "product_specifications": {
+    "manufacturing_details": {
+      "materials_used": "string",
+      "manufacturing_processes": "string",
+      "build_quality": "string",
+      "assembly_techniques": "string"
+    },
+    "component_quality": {
+      "processor": "string",
+      "gpu": "string",
+      "ram": "string",
+      "other_components": "string"
+    },
+    "standards_compliance": {
+      "certifications": ["string"],
+      "safety_reliability_quality": "string"
+    },
+    "design_engineering": {
+      "design_choices": "string",
+      "engineering_principles": "string"
+    },
+    "component_sourcing": {
+      "sourcing_details": "string",
+      "quality_assurance_processes": "string"
+    }
+  },
+  "usage_environmental_factors": {
+    "operational_conditions": {
+      "temperature_range": "string",
+      "humidity": "string",
+      "dust_resistance": "string",
+      "power_requirements": "string"
+    },
+    "usage_patterns": {
+      "typical_usage": "string",
+      "workload_conditions": "string"
+    },
+    "maintenance_requirements": {
+      "maintenance_schedule": "string",
+      "cleaning": "string",
+      "operational_upkeep": "string"
+    },
+    "energy_efficiency": {
+      "power_consumption": "string",
+      "energy_efficiency_standards": "string"
+    }
+  },
+  "performance_data": {
+    "reliability_metrics": "string",
+    "failure_rates": "string",
+    "performance_degradation": "string",
+    "testing_reports": "string"
+  },
+  "product_reviews_reports": {
+    "expert_reviews": "string",
+    "user_feedback": "string",
+    "failure_reports": "string"
+  },
+  "lifecycle_phases": {
+    "introduction": "string",
+    "growth": "string",
+    "maturity": "string",
+    "decline": "string"
+  },
+  "end_of_life_planning": {
+    "discontinuation_plans": "string",
+    "replacement_parts": "string",
+    "recycling_disposal": "string"
+  },
+  "industry_trends": {
+    "technological_advances": "string",
+    "market_demand": "string"
+  },
+  "regulatory_compliance_information": {
+    "safety_standards": "string",
+    "environmental_regulations": "string",
+    "certifications_government_approvals": "string"
+  },
+  "product_upgrades_innovation": {
+    "technological_upgrades": "string",
+    "product_evolution": "string"
+  },
+  "environmental_impact": {
+    "energy_efficiency": "string",
+    "sustainability": "string",
+    "compliance_environmental_standards": "string"
+  },
+  "product_lifecycle_cost_analysis": {
+    "total_cost_of_ownership": "string",
+    "cost_benefit_analysis": "string",
+    "return_on_investment": "string"
+  },
+  "queries": {
+    "pre_purchase": {
+      "product_specifications": "string",
+      "suitability_for_intended_use": "string",
+      "competitor_analysis": "string"
+    },
+    "post_purchase": {
+      "customer_support": "string",
+      "warranty_returns": "string"
+    }
+  },
+  "product_videos": {
+    "unboxing_reviews": "string",
+    "engineering_reviews": "string",
+    "experience_stories": "string",
+    "performance_showcase": "string"
+  },
+  "product_image_gallery": {
+    "outside_showcase_all_angles": ["string"],
+    "teardown_showcase_close_up_shots": ["string"]
+  },
+  "certification_government_approval": {
+    "government_certifications": "string",
+    "industry_standards": "string",
+    "inspection_reports": "string"
+  }
+
+}
+}

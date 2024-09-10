@@ -1,0 +1,31 @@
+{
+  "actions": [
+    {
+      "action": "createCollection",
+      "collection": "television",
+      "options": {
+        "capped": false,
+        "size": 0,
+        "max": 0
+      }
+    },
+    {
+      "action": "createIndex",
+      "collection": "television",
+      "index": {
+        "key": { "brand": 1 },
+        "name": "brand_index",
+        "unique": false
+      }
+    },
+    {
+      "action": "createIndex",
+      "collection": "television",
+      "index": {
+        "key": { "model": 1 },
+        "name": "model_index",
+        "unique": false
+      }
+    }
+  ]
+}
